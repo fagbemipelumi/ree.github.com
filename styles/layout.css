@@ -234,6 +234,37 @@ src: url('hand.ttf'); font-size:20px; }
 	width:630px;
 	}
 
+#roundBorderProject{
+	border-radius: 5px;
+    border: 2px solid #66DC47;
+    padding: inherit;
+    width: inherit;
+    height: inherit; 
+	}
+
+#roundBorderProject:hover {
+	border-radius: 5px;
+    border: 2px solid #891818;
+    padding: inherit;
+    width: inherit;
+    height: inherit;
+	}
+	
+#roundBorderSingle{
+	border-radius: 5px;
+    border: 2px solid #30BADC;
+    padding: inherit;
+    width: inherit;
+    height: inherit; 
+	}
+
+#roundBorderSingle:hover {
+	border-radius: 5px;
+    border: 2px solid #891818;
+    padding: inherit;
+    width: inherit;
+    height: inherit;
+	}
 /* ------Comments-----*/
 
 #comments{margin-bottom:40px;}
