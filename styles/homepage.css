@@ -15,14 +15,13 @@
 	height:498px;
 	color:#999999;
 	background-color:#FAFAFA;
-	border:1px solid #D8D9DE;
-	border-bottom-color:#FAFAFA;
+	border: 1px solid #D4AF37;
+	border-bottom-color:#D4AF37;
 	overflow:hidden;
 	}
 
 #homepage #hpage_slider div.item{
 	position:relative;
-	display:block;
 	width:480px;
 	height:480px;
 	margin:9px;
@@ -30,7 +29,7 @@
 
 /* ----------------------------------------------Slider Navigation Buttons-------------------------------------*/
 
-/*
+
 
 Navigation dynamically created using: jquery.cycle.setup.js and jquery.cycle.min.js
 
@@ -46,7 +45,6 @@ HTML Output:
   </ul>
 </div>
 
-*/
 
 #homepage #fsn{
 	display:block;
@@ -121,7 +119,7 @@ HTML Output:
 
 #homepage .fl_right .testimonials li{
 	margin-bottom:25px;
-	background:url("../images/quotemarks.gif") 0 0 no-repeat;
+	background:url("../images/quotation_mark_opening.png") 0 0 no-repeat;
 	}
 
 #homepage .fl_right .testimonials li.last{

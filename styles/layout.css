@@ -65,9 +65,10 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 .col2{color:#666666; background-color:#202020;}
 .col3{color:#989898; background:url("../images/featured_slide.gif") top left repeat-x #202020;}
 .col4{
-	color:#989898;
+	color:#585858;
 	background-color:#FAFAFA;
-}
+	background-image:url(../images/backgroundPolyAlternate.jpg)
+}/*Prev color:989898*/
 
 /* ----------------------------------------------Generalise-------------------------------------*/
 
@@ -128,12 +129,16 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 /* ----------------------------------------------Content-------------------------------------*/
 /* members */
-#members { width:320px; font-family: "PP Handwriting"; 
-src: url('hand.ttf'); font-size:20px; }
+#members { 
+	width:320px; 
+	font-family: "PP Handwriting"; 
+	src: url('fonts/hand.ttf'); 
+	font-size:20px;
+}
 @font-face{
     font-family: "PP Handwriting";
-    src: url('hand.ttf'),
-    url('hand.ttf'); /* IE */
+    src: url('fonts/hand.ttf'),
+    url('fonts/hand.ttf'); /* IE */
 }
 #members.center {
     margin-left:auto; 
@@ -152,11 +157,38 @@ src: url('hand.ttf'); font-size:20px; }
 
 #container h1, #container h2, #container h3, #container h4, #container h5, #container h6{
 	margin-bottom:20px;
-	color:#797979;
 	background-color:#FAFAFA;
 	font-size:22px;
-	font-style:italic;
 	}
+
+/* fontFamily28DaysLater */
+#fontFamily28DaysLater { width:auto; font-family: "28 Days Later"; 
+src: url('fonts/28 Days Later.ttf'); font-size:20px; }
+@font-face{
+    font-family: "28 Days Later";
+    src: url('fonts/28 Days Later.ttf'),
+	url('fonts/28 Days Later.ttf'); /* IE */
+}
+
+.Fontcolorblack{
+	color:#000000;
+}
+
+.Fontcolor585858{
+	color:#585858;
+}
+
+.Fontcolor797979{
+	color:#797979;
+}
+
+.FontcolorWhite{
+	color:white;
+}
+
+.fontstyleItalic{
+	font-style:italic;
+}
 
 #container a{
 	color:#2A71C1;
@@ -177,15 +209,20 @@ src: url('hand.ttf'); font-size:20px; }
 	display:inline-block;
 	height:33px;
 	padding-left:10px;
-	background:url("../images/readmore_left.gif") top left no-repeat;
+	padding-right:4px;
+	background:url("../images/newsletter_form2.gif") top left no-repeat;
 	}
+	/*bg gif image seems to interfere with the colour
+	*/
 
 .readmore strong{
 	padding:9px 10px 9px 0;
 	line-height:33px;
 	white-space:nowrap;
-	background:url("../images/readmore_right.gif") top right no-repeat;
 	}
+	/*
+	background:url("../images/readmore_right2.gif") top right no-repeat;
+	*/
 
 #shout{
 	display:block;
