@@ -72,6 +72,10 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	background-image:url(../images/backgroundPolyAlternate.jpg);
 }/*Prev color:989898*/
 
+.col5{
+	height: 98vh;
+}/*Prev color:989898*/
+
 /* ----------------------------------------------Generalise-------------------------------------*/
 
 #topbar, #header, #featured_slide, #container, #footer, #backtotop, #copyright{
