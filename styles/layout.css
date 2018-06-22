@@ -30,7 +30,7 @@ a{outline:none; text-decoration:none;}
 
 .fl_left{float:left;}
 .fl_right{float:right;}
-.fl_center{float::center;}
+.fl_center{float:center;}
 
 .imgl, .imgr{padding:4px; border:1px solid #D8D9DE;}
 .imgl{float:left; margin:0 15px 15px 0; clear:left;}
@@ -68,16 +68,15 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	color:#585858;
 	background-color:#FAFAFA;
 	background-color:#FFFFFF;
-	background-image:url(../images/backgroundPolyAlternate3.jpg);
+	background-image:url(../images/588.jpg);
 }/*Prev color:989898*/
 
 @media (orientation: portrait) {
     /* applies to mobiles in portrait mode */
 	.col4{
-		height: 85vh;
+		height: 98vh;
 	}
 }
-
 /* ----------------------------------------------Generalise-------------------------------------*/
 
 #topbar, #header, #featured_slide, #container, #footer, #backtotop, #copyright{
